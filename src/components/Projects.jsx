@@ -1,26 +1,29 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import aeroDropImg from '../assets/aerodrop-screenshot.jpg';
+import paymateImg from '../assets/paymate-screenshot.jpg';
+import vogueImg from '../assets/vogue-screenshot.jpg';
 
 const projects = [
   {
     title: "PayMate",
     description: "A modern payment solution platform with intuitive user interface and seamless transaction processing.",
     link: "http://paymate.liveblog365.com/?i=1",
-    image: "/src/assets/paymate-screenshot.jpg",
+    image: paymateImg,
     tech: ["WordPress", "Elementor", "PHP", "CSS"]
   },
   {
     title: "Vogue Hair Salon",
     description: "A professional website for a hair salon featuring appointment booking and service showcase.",
     link: "http://voguehairsalon.liveblog365.com/?i=1",
-    image: "/src/assets/vogue-screenshot.jpg",
+    image: vogueImg,
     tech: ["WordPress", "Elementor", "JavaScript", "CSS"]
   },
   {
     title: "AeroDrop",
     description: "An innovative web application with modern design and responsive interface.",
     link: "https://ferocious8.github.io/aerodrop/",
-    image: "/src/assets/aerodrop-screenshot.jpg",
+    image: aeroDropImg,
     tech: ["HTML", "CSS", "JavaScript", "GitHub Pages"]
   }
 ];
@@ -48,7 +51,7 @@ const Projects = () => {
                     <img
                       src={project.image}
                       alt={project.title}
-                      className="w-full h-full object-contain hover:scale-105 transition-transform duration-300"
+                      className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300"
                       onError={(e) => {
                         e.target.style.display = 'none';
                         e.target.parentElement.style.backgroundColor = '#1f2937';

@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import togaImg from '../assets/toga.jpg';
 
 const About = () => {
   return (
@@ -20,9 +21,8 @@ const About = () => {
             className="lg:w-1/2 flex items-center justify-center"
           >
             <div className="relative w-full max-w-lg h-[600px] rounded-2xl overflow-hidden shadow-xl">
-              {/* Replace src with your actual toga image path once provided */}
               <img
-                src="/src/assets/toga.jpg"
+                src={togaImg}
                 alt="Gerenz R. Mendoza - Graduation"
                 className="w-full h-full object-contain bg-gray-900"
                 onError={(e) => {

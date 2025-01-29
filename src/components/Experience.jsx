@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import rocLogo from '../assets/roc.logo.png';
 
 const Experience = () => {
   return (
@@ -19,9 +20,8 @@ const Experience = () => {
             >
               <div className="flex flex-col md:flex-row items-start gap-6">
                 <div className="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0 bg-white p-2">
-                  {/* Replace src with your actual company logo path once provided */}
                   <img
-                    src="/src/assets/roc.logo.png"
+                    src={rocLogo}
                     alt="ROC.PH Logo"
                     className="w-full h-full object-contain"
                     onError={(e) => {

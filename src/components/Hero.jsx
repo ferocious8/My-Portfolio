@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import profileImg from '../assets/profile.png';
 
 const Hero = () => {
   return (
@@ -61,7 +62,7 @@ const Hero = () => {
               <div className="w-full rounded-3xl overflow-hidden bg-gradient-to-br from-blue-500 to-purple-600 p-1.5">
                 <div className="rounded-3xl overflow-hidden bg-gray-900">
                   <img
-                    src="/src/assets/profile.png"
+                    src={profileImg}
                     alt="Gerenz R. Mendoza"
                     className="w-full h-full object-contain object-center"
                     style={{ maxHeight: 'calc(100vh - 200px)' }}
