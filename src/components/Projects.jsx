@@ -3,8 +3,17 @@ import { motion } from 'framer-motion';
 import aeroDropImg from '../assets/aerodrop-screenshot.jpg';
 import paymateImg from '../assets/paymate-screenshot.jpg';
 import vogueImg from '../assets/vogue-screenshot.jpg';
+import panlasangPinoyImg from '../assets/panlasang-pinoy.jpg.png';
 
 const projects = [
+  {
+    title: "Panlasang Pinoy",
+    description: "A Filipino recipe website showcasing various traditional and modern Filipino dishes.",
+    link: "https://ferocious8.github.io/panlasang-pinoy/#/",
+    image: panlasangPinoyImg,
+    tech: ["React", "Tailwind CSS", "GitHub Pages"],
+    github: "https://github.com/ferocious8/panlasang-pinoy"
+  },
   {
     title: "PayMate",
     description: "A modern payment solution platform with intuitive user interface and seamless transaction processing.",
