@@ -4,6 +4,7 @@ import aeroDropImg from '../assets/aerodrop-screenshot.jpg';
 import paymateImg from '../assets/paymate-screenshot.jpg';
 import vogueImg from '../assets/vogue-screenshot.jpg';
 import panlasangPinoyImg from '../assets/panlasang-pinoy.jpg.png';
+import privateResortImg from '../assets/private-resort-screenshot.jpg';
 
 const projects = [
   {
@@ -37,6 +38,14 @@ const projects = [
     image: aeroDropImg,
     tech: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
     github: "https://github.com/ferocious8/aerodrop"
+  },
+  {
+    title: "Private Resort",
+    description: "A modern resort booking website with an elegant design and seamless user experience.",
+    link: "https://ferocious8.github.io/private-resort/#/",
+    image: privateResortImg,
+    tech: ["React", "Tailwind CSS", "GitHub Pages"],
+    github: "https://github.com/ferocious8/private-resort"
   }
 ];
 
@@ -55,7 +64,7 @@ const Projects = () => {
           <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto"></div>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <motion.div
               key={index}
