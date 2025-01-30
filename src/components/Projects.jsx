@@ -4,7 +4,7 @@ import aeroDropImg from '../assets/aerodrop-screenshot.jpg';
 import paymateImg from '../assets/paymate-screenshot.jpg';
 import vogueImg from '../assets/vogue-screenshot.jpg';
 import panlasangPinoyImg from '../assets/panlasang-pinoy.jpg.png';
-import privateResortImg from '../assets/private-resort-screenshot.jpg';
+import privateResortImg from '../assets/private-resort-screenshot.png';
 
 const projects = [
   {
