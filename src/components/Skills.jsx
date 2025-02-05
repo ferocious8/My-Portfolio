@@ -36,7 +36,7 @@ const skillCategories = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
       </svg>
     ),
-    skills: ["Full-stack Development", "Problem Solving", "Team Leadership", "Project Management"]
+    skills: ["Front-end Development", "Problem Solving", "Team Leadership", "Project Management"]
   }
 ];
 
